@@ -11,20 +11,44 @@
     - Explain (with reference to material covered up to date, along with readings and other scholarly sources, as needed) why you classified that visualization the way you did.
       ```
       Your answer...
+      Example of a Good Data Visualization: CO2 Emissions Over Time
+      ![example of a good data visualization](image.png)
+      
+      1.	Clarity and Simplicity: The visualizations uses a line chart, which is the most effective way to show trends over time and the color contrast (green for emissions, red for crises) draws attention to key relationships.
+
+      2.	Effective Contextualization: Annotations like “Oil crisis,” “Collapse of the Soviet Union,” and “Global financial crisis” connect data trends with real-world events, making it easy to interpret causes for fluctuations.
+
+      3.    Clear Hierarchy and Readability: The title and subtitle clearly summarize the insight that is emissions continue to rise despite economic downturns. Also, font hierarchy, white space, and consistent labeling guide the reader’s eye naturally.
+      
+      4.   Integrity of Data Presentation: The scale starts at zero and the y-axis is proportionate, avoiding visual exaggeration. The design emphasizes data accuracy and interpretability, consistent with Tufte’s principle of “showing data truthfully.”
+
+
+      Example of a Bad Data Visualization: Data Enrichment by Brands and Items (Sibo Systems)
+
+      1.	Unnecessary 3D Design: The 3D perspective distorts data interpretation — bars at the back appear smaller even if their values are higher. Depth makes it difficult to compare bar heights accurately, violating Tufte’s principle of “minimizing chartjunk.”
+      
+      2.	Cognitive Load: Multiple axes (X, Y, and Z) create visual clutter and require users to mentally rotate the data. The visualization demands more interpretation effort, which Stephen Few warns against i.e. data should be “seen, not deciphered.”
+      
+      3.	Color and Labeling Issues: The color scheme lacks clear encoding (no legend explaining color meaning). Axis titles are small and rotated, making them hard to read. The purpose of the visualization is unclear—what insight should the viewer take away?
+      
+      4.	Violation of Data-Ink Ratio: The chart focuses more on design aesthetics than data clarity, using 3D effects and shading that don’t convey additional meaning.
 
 
 
+     ### References
 
+    Few, S. (2012). Show Me the Numbers: Designing Tables and Graphs to Enlighten. Analytics Press.
 
-
+    Tufte, E. R. (2001). The Visual Display of Quantitative Information. Graphics Press.
 
       ```
     - How could this data visualization have been improved?  
       ```
-      Your answer...
-
-
-
+      The Bad Data Visualization could be improved by :
+      1. using a 2D grouped bar chart with Brands on the x-axis and Data Enrichment on the y-axis,
+      2. use of different colors representing Item Types,
+      3. include a simple legend explaining color categories, and
+      4. include a clear title highlighting insights or adding context to the graph.
 
 
 
