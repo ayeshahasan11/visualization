@@ -6,24 +6,29 @@
 - We will finish this class by giving you the chance to use what you have learned in a practical context, by creating data visualizations from raw data. 
 - Choose a dataset of interest from the [City of Toronto’s Open Data Portal](https://www.toronto.ca/city-government/data-research-maps/open-data/) or [Ontario’s Open Data Catalogue](https://data.ontario.ca/). 
 - Using Python and one other data visualization software (Excel or free alternative, Tableau Public, any other tool you prefer), create two distinct visualizations from your dataset of choice.  
-- For each visualization, describe and justify: 
+- For each visualization, describe and justify:
+  
     > What software did you use to create your data visualization?
+    
         For the total services available at Toronto Public Library, I used python for the bar graph visual. For interactive map of Toronto showing TPL locations and slicer to filter services, I used Power BI.
 
 
-    > Who is your intended audience? 
+    > Who is your intended audience?
+    
         Bar graph in Python (Bar graph of Total Services): Intended audience is internal stakeholders like strategy team who need a quick summary of services available across all branches of TPL.
-
+  
         Map in Power BI: Intended audience are TPL administration, city program planners, community stakeholders who need to visualize service availability across different library branches. It can also benefit the public if published as an interactive online report, to help them locate nearby branches offering specific programs.
 
 
-    > What information or message are you trying to convey with your visualization? 
+    > What information or message are you trying to convey with your visualization?
+    
         Bar graph in Python: This conveys how many branches offer each service and summarizes the coverage of TPL branches that can help identify opportunity of exapansion or reduction.
-
+  
         Map in Power BI:  It communicates the distribution of library programs and services across TPL branches. By selecting one or more services from the slicer, users can filter out which branches offer those programs. This can help in identifying service clusters and potential geographic gaps in accessibility.
 
 
-    > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots? 
+    > What aspects of design did you consider when making your visualization? How did you apply them? With what elements of your plots?
+    
         Bar graph in Python:
              •	Direct labeling: Values printed at the end of each bar for exact counts.
             •	Legibility: Rotations avoided (horizontal labels), adequate padding, and clear title/axes labels.
@@ -38,7 +43,8 @@
             •	Text over color reliance: The slicer and tooltips rely on text labels rather than hue differences to communicate meaning.
 
 
-    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization? 
+    > How did you ensure that your data visualizations are reproducible? If the tool you used to make your data visualization is not reproducible, how will this impact your data visualization?
+    
          Bar graph in Python: 
          Reproducibility is mainted through	the code that recomputes totals from the CSV using a consistent set of data cleaning, no manual working therefore the same inputs produce the same chart. If the process weren’t reproducible, decision-makers could question accuracy and the chart would be hard to refresh as data changes.
 
@@ -48,14 +54,16 @@
 
 
     
-    > How did you ensure that your data visualization is accessible?  
+    > How did you ensure that your data visualization is accessible?
+    
         Bar graph in Python: To ensure that visualization is accessible, text labels on bars (counts) provide a non-color cue, horizontal layout supports long service names and screen zoom and high-contrast default text and sufficient font sizes are used.
 
 
          Map in Power BI: Following steps ensured that visualization is accessible: high-contrast colors and readable font sizes for branch markers and labels, interactive filters allow keyboard and mouse navigation without relying solely on visual distinction, and users can zoom or resize visuals freely in Power BI service for readability.
 
 
-    > Who are the individuals and communities who might be impacted by your visualization?  
+    > Who are the individuals and communities who might be impacted by your visualization?
+    
          Bar graph in Python: 
          Program managers and patrons who may decide based on these counts for expanding services.
 
@@ -66,7 +74,8 @@
 
 
 
-    > How did you choose which features of your chosen dataset to include or exclude from your visualization? 
+    > How did you choose which features of your chosen dataset to include or exclude from your visualization?
+    
          Bar graph in Python: Included service columns from the dataset and excluded Public Parking column as it is an amenity not a program. 
 
          Map in Power BI: Included branch names, addresses, contact info, and program availability fields (e.g., KidsStop, Youth Hub, etc.) so that the users can timely identify which branch has their desired program and its details. Excluded PublicParking, SquareFootage, and WardNumber because they do not directly support the visualization’s purpose and would clutter the map.
@@ -74,6 +83,7 @@
 
 
     > What ‘underwater labour’ contributed to your final data visualization product?
+    
          Bar graph in Python: 
             •	Cleaned data by handling blanks.
             •	Verified that column headers match services.
@@ -129,3 +139,4 @@ Checklist:
 - [ ] Verify that the link is accessible in a private browser window.
 
 If you encounter any difficulties or have questions, please don't hesitate to reach out to our team via our Slack. Our Technical Facilitators and Learning Support staff are here to help you navigate any challenges.
+
